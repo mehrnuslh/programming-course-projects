@@ -19,4 +19,3 @@ Features include user authentication, database integration, and transaction hist
 
 This project was completed as part of a structured programming course.
 
-Add README for Finance project
