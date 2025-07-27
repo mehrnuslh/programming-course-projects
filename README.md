@@ -8,6 +8,6 @@ This repository contains projects completed as part of a structured programming 
   A web application developed using Flask, featuring user authentication, database integration, and financial transaction management.
 
 - Filterless
-  An image filter application written in C that applies effects like grayscale, sepia, reflect, and blur to BMP image files — all implemented without external image processing libraries.
+   An image filter application written in C that applies effects like grayscale, sepia, reflect, and blur to BMP image files — all implemented without external image processing libraries.
 
 <!-- More projects will be added soon -->
