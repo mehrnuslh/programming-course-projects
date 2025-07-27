@@ -10,6 +10,6 @@ This repository contains projects completed as part of a structured programming 
 - Filterless  
    An image filter application written in C that applies effects like grayscale, sepia, reflect, and blur to BMP image files — all implemented without external image processing libraries.
 
-- 📅 Birthdays
+- 📅 Birthdays    
    A small web app for storing and managing birthdays using Flask and SQLite.  
 <!-- More projects will be added soon -->
