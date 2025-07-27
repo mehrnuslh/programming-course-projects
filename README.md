@@ -11,5 +11,9 @@ This repository contains projects completed as part of a structured programming 
    An image filter application written in C that applies effects like grayscale, sepia, reflect, and blur to BMP image files — all implemented without external image processing libraries.
 
 - 📅 Birthdays    
-   A small web app for storing and managing birthdays using Flask and SQLite.  
+   A small web app for storing and managing birthdays using Flask and SQLite.
+
+- 🏠 Homepage      
+   A basic static webpage built using HTML and CSS.  
+
 <!-- More projects will be added soon -->
