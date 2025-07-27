@@ -1,0 +1,12 @@
+body{
+    background-color: #6d95d6;
+}
+.link{
+    color: white;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 30px;
+}
+#page{
+    text-align: center;
+}

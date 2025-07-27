@@ -1,0 +1,14 @@
+body{
+    background-color: #6d95d6;
+    text-align: center;
+}
+#hi, .pic{
+    text-align: center;
+}
+.link{
+    color:white;
+    border: dotted 4px black;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+

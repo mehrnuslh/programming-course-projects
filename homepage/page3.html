@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style3.css" rel="stylesheet">
+        <title>feedback</title>
+    </head>
+    <body>
+        <h2>Feedback</h2>
+        <div class="mb-4 small">
+        Please provide your feedback in the form below
+        </div>
+        <form name="feedback_form" id="feedback_form" method="post">
+        <label>How do you rate your overall experience?</label>
+        <div class="mb-3 d-flex flex-row py-1">
+        <div class="form-check mr-3">
+        <input class="form-check-input" type="radio" name="rating" id="rating_bad" value="bad">
+        <label class="form-check-label" for="rating_bad">
+            Bad
+        </label>
+        </div>
+
+        <div class="form-check mx-3">
+        <input class="form-check-input" type="radio" name="rating" id="rating_good" value="good">
+        <label class="form-check-label" for="rating_good">
+            Good
+        </label>
+        </div>
+
+        <div class="form-check mx-3">
+        <input class="form-check-input"  type="radio" name="rating" id="rating_excellent" value="excellent">
+        <label class="form-check-label" for="rating_excellent">
+            Excellent!
+        </label>
+        </div>
+        </div>
+        <div class="mb-4">
+        <label class="form-label"  for="feedback_comments">Comments:</label>
+        <textarea class="form-control" required rows="6" name="comments" id="feedback_comments" ></textarea>
+        </div>
+        <div class="row">
+        <div class="col">
+            <label class="form-label" for="feedback_name">Your Name:</label>
+            <input type="text" required name="name" class="form-control" id="feedback_name">
+        </div>
+
+        <div class="col mb-4">
+            <label class="form-label" for="feedback_email">Email:</label>
+            <input type="email" name="email" required class="form-control" id="feedback_email">
+        </div>
+        </div>
+        <button type="submit" class="btn btn-success btn-lg" >Post</button>
+        </form>
+        <div id="page">
+            <a href="/index.html" class="link">Homepage</a>
+            <a href="/page1.html" class="link">My Info</a>
+            <a href="/page2.html" class="link">Hobbies</a>
+        </div>
+    </body>
+</html>
