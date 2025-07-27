@@ -15,7 +15,7 @@ This project focuses on manipulating pixel data without using external image lib
 2. Run the desired filter. Example:
 
    `bash
-   ./filter -g input.bmp output.bmp
+   ./filter -g input.bmp output.bmp    
 Replace -g with:
 -s for sepia
 -r for reflect
